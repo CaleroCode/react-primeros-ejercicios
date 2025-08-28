@@ -38,3 +38,24 @@
 .card__btn:hover {
   filter: brightness(0.9);
 }
+.card {
+  width: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  color: white;
+}
+.card__img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.botoncitos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 200px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,40 @@
+.card {
+  width: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  color: white;
+}
+.card__img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card__body {
+  padding: 12px 14px;
+}
+.card__title {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.card__desc {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.card__btn {
+  margin-top: 10px;
+  background: rgba(0,0,0,0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.card__btn:hover {
+  filter: brightness(0.9);
+}
